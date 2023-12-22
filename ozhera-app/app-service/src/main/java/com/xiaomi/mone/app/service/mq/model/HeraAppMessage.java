@@ -61,7 +61,6 @@ public class HeraAppMessage implements Serializable {
         }else{
             heraAppBaseInfo.setAppLanguage(this.getAppLanguage());
         }
-
         heraAppBaseInfo.setPlatformType(this.getPlatformType());
         heraAppBaseInfo.setAppType(this.getAppType());
         heraAppBaseInfo.setEnvsMap(this.getEnvMapping() == null ? "" : this.getEnvMapping().toString());
